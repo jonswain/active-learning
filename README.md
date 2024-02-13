@@ -13,10 +13,17 @@ Using active learning to speed up molecular scoring
 The following commands will setup an environment where you can run and test the application locally:
 
 ```bash
-git clone git@github.com:jonswain/active_learning.git
+git clone git@github.com:jonswain/active-learning.git
 cd active_learning
 conda env create -f env.ml
 conda activate active-learning
 code .
 ```
 
+## Procedure
+
+Active learning is used when we have some sort of scoring function that is too computationally expensive to label the full library of compounds. A machine learning model is trained on a subset of the data and used to score all compounds from within the library. The compounds with the best scores from the ML are labelled using the more expensive function, and the labelled data is pooled and used to train a new machine learning model. This cycle is repeated until a finish criteria is met.
+
+## Data
+
+The SMILES data was borrowed from [Thompson Sampling by Pat Walters](https://github.com/PatWalters/TS)
