@@ -1,0 +1,72 @@
+HEADER    HYDROLASE/HYDROLASE INHIBITOR                       5R84    
+REMARK  99                                                                      
+REMARK  99 MOE v2022.02 (Chemical Computing Group ULC) Tue Feb 13 15:49:57 2024 
+HETATM    1  N1  GWS A1001       7.534   0.344  17.581  1.00 19.91           N  
+HETATM    2  C4  GWS A1001      13.488  -0.514  24.062  1.00 19.78           C  
+HETATM    3  C5  GWS A1001      13.976  -1.682  23.221  1.00 19.72           C  
+HETATM    4  C6  GWS A1001      13.457  -1.525  21.803  1.00 19.23           C  
+HETATM    5  C7  GWS A1001      11.947  -1.343  21.740  1.00 19.37           C  
+HETATM    6  C8  GWS A1001       7.431   0.116  19.883  1.00 19.78           C  
+HETATM    7  C10 GWS A1001       5.648   1.168  18.750  1.00 20.80           C  
+HETATM    8  O   GWS A1001       9.871   0.915  20.701  1.00 19.48           O  
+HETATM    9  C   GWS A1001       9.318   0.179  21.452  1.00 19.73           C  
+HETATM   10  N   GWS A1001       8.027  -0.321  21.104  1.00 20.33           N  
+HETATM   11  C12 GWS A1001       8.096  -0.072  18.686  1.00 19.97           C  
+HETATM   12  C11 GWS A1001       6.354   0.944  17.579  1.00 20.41           C  
+HETATM   13  C9  GWS A1001       6.197   0.751  19.962  1.00 19.97           C  
+HETATM   14  C1  GWS A1001       9.928  -0.275  22.773  1.00 19.11           C  
+HETATM   15  C2  GWS A1001      11.452  -0.275  22.712  1.00 19.50           C  
+HETATM   16  C3  GWS A1001      11.973  -0.534  24.118  1.00 19.24           C  
+HETATM   17  H1  GWS A1001      13.823   0.422  23.615  1.00 19.78           H  
+HETATM   18  H2  GWS A1001      13.891  -0.599  25.071  1.00 19.78           H  
+HETATM   19  H3  GWS A1001      13.606  -2.616  23.644  1.00 19.72           H  
+HETATM   20  H4  GWS A1001      15.066  -1.694  23.211  1.00 19.72           H  
+HETATM   21  H5  GWS A1001      13.724  -2.416  21.235  1.00 19.23           H  
+HETATM   22  H6  GWS A1001      13.931  -0.652  21.354  1.00 19.23           H  
+HETATM   23  H7  GWS A1001      11.469  -2.291  21.987  1.00 19.37           H  
+HETATM   24  H8  GWS A1001      11.671  -1.050  20.727  1.00 19.37           H  
+HETATM   25  H9  GWS A1001       4.686   1.659  18.724  1.00 20.80           H  
+HETATM   26  H10 GWS A1001       7.545  -0.970  21.709  1.00 20.33           H  
+HETATM   27  H11 GWS A1001       9.062  -0.554  18.664  1.00 19.97           H  
+HETATM   28  H12 GWS A1001       5.930   1.267  16.640  1.00 20.41           H  
+HETATM   29  H13 GWS A1001       5.694   0.912  20.904  1.00 19.97           H  
+HETATM   30  H14 GWS A1001       9.582  -1.285  22.995  1.00 19.11           H  
+HETATM   31  H15 GWS A1001       9.605   0.402  23.564  1.00 19.11           H  
+HETATM   32  H16 GWS A1001      11.819   0.686  22.351  1.00 19.50           H  
+HETATM   33  H17 GWS A1001      11.617   0.243  24.794  1.00 19.24           H  
+HETATM   34  H18 GWS A1001      11.628  -1.507  24.468  1.00 19.24           H  
+CONECT    1   11   11   12
+CONECT    2   17   18    3   16
+CONECT    3    2   19   20    4
+CONECT    4    3   21   22    5
+CONECT    5    4   23   24   15
+CONECT    6   10   11   13   13
+CONECT    7   25   12   12   13
+CONECT    8    9    9
+CONECT    9    8    8   10   14
+CONECT   10    6    9   26
+CONECT   11    1    1    6   27
+CONECT   12    1    7    7   28
+CONECT   13    6    6    7   29
+CONECT   14    9   30   31   15
+CONECT   15    5   14   32   16
+CONECT   16    2   15   33   34
+CONECT   17    2
+CONECT   18    2
+CONECT   19    3
+CONECT   20    3
+CONECT   21    4
+CONECT   22    4
+CONECT   23    5
+CONECT   24    5
+CONECT   25    7
+CONECT   26   10
+CONECT   27   11
+CONECT   28   12
+CONECT   29   13
+CONECT   30   14
+CONECT   31   14
+CONECT   32   15
+CONECT   33   16
+CONECT   34   16
+END
