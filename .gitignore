@@ -70,3 +70,8 @@ target/
 
 # DS_Store
 .DS_Store
+
+# Some large data files
+data/fingerprints.csv
+data/library.csv
+data/docking/tmp_*
